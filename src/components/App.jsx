@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import '../../src/index.css';
-import { ContactList } from "./ContactList/ContactList";
+import { ContactList } from "./ContactList/Contacts";
 import  ContactForm  from "./СontactForm/ContactForm";
 import  {Filter}  from "./Filter/Filter";
 import data from "../data.json";
