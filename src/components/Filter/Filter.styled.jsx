@@ -1,25 +1,28 @@
 import styled from '@emotion/styled';
 
 export const Label = styled.label`
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
   text-align: center;
+  padding: 20px 30px;
+  
+
 `;
 
 export const FilterInput = styled.input`
   display: block;
-  width: 100%;
+  width: 80%;
+  margin-top: 20px;
   margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 15px;
-
+  padding: 10px 5px;
   border: 0;
   outline: 0;
-  font-size: 1.3rem;
+  font-size: 14px;
   color: black;
   background-color: white;
-
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+   // border-radius: 10px;
 `;

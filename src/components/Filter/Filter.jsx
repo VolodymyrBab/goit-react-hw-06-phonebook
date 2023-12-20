@@ -10,6 +10,7 @@ const Filter = () => {
 	dispatch(setFilter(target.value))
 }
   return (
+    <>
     <Label>
       Find contacts by name
       <FilterInput
@@ -19,6 +20,8 @@ const Filter = () => {
         onChange={handleChange}
       ></FilterInput>
     </Label>
+    </>
+    
   );
 };
 
